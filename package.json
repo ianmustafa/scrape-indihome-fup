@@ -1,0 +1,28 @@
+{
+  "name": "scrape-indihome-fup",
+  "version": "1.0.0",
+  "description": "Indihome FUP Scraper, dibuat dengan bantuan Puppeteer.",
+  "private": true,
+  "main": "fup.js",
+  "dependencies": {
+    "async": "^2.6.3",
+    "chalk": "^2.4.2",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.1.0",
+    "puppeteer-core": "^1.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node fup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmustafa/scrape-indihome-fup.git"
+  },
+  "author": "Ian Mustafa <mail@ianmustafa.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianmustafa/scrape-indihome-fup/issues"
+  },
+  "homepage": "https://github.com/ianmustafa/scrape-indihome-fup#readme"
+}
